@@ -5,8 +5,8 @@
 }
 
 body {
-  background: #050d1f;
-  color: white;
+  background: #ffffff;
+  color: rgb(255, 255, 255);
   font-family: Arial, sans-serif;
 }
 
@@ -26,7 +26,7 @@ body {
   background-image:
   linear-gradient(rgba(0,0,0,0.6),
   rgba(0,0,0,0.6)),
-  url("images/img1.jpg");
+  url("images/foto-barbaer.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -74,7 +74,7 @@ button:hover {
 .services {
   padding: 80px 20px;
 
-  background: #111827;
+  background: #ffffff;
 
   text-align: center;
 }
@@ -83,6 +83,8 @@ button:hover {
   font-size: 36px;
 
   margin-bottom: 50px;
+
+  color: #000000;
 }
 
 .cards {
@@ -96,7 +98,7 @@ button:hover {
 }
 
 .card {
-  background: #1f2937;
+  background: #b5b5b5;
 
   padding: 30px;
 
@@ -114,7 +116,7 @@ button:hover {
 .card h3 {
   margin-bottom: 15px;
 
-  color: #45a6db;
+  color: #000000;
 }
 
 @media (max-width: 768px) {
@@ -163,7 +165,7 @@ header {
 
   padding: 20px 40px;
 
-  background: #0f172a;
+  background: #ffffff;
 
   z-index: 1000;
 }
@@ -177,7 +179,7 @@ header {
 }
 
 .logo {
-  color: #45a6db;
+  color: #000000;
 
   font-size: 28px;
 }
@@ -191,7 +193,7 @@ header {
 }
 
 .menu a {
-  color: white;
+  color: rgb(0, 0, 0);
 
   text-decoration: none;
 
@@ -199,17 +201,17 @@ header {
 }
 
 .menu a:hover {
-  color: #45a6db;
+  color: #ffffff;
 }
 
 footer {
-  background: #020617;
+  background: #ffffff;
 
   text-align: center;
 
   padding: 30px 20px;
 
-  color: #94a3b8;
+  color: #424242;
 
   margin-top: 50px;
 }
@@ -217,7 +219,7 @@ footer {
 .about {
   padding: 100px 20px;
 
-  background: #111827;
+  background: #ffffff;
 
   display: flex;
 
@@ -235,7 +237,7 @@ footer {
 
   margin-bottom: 20px;
 
-  color: #45a6db;
+  color: #000000;
 }
 
 .about p {
@@ -243,7 +245,7 @@ footer {
 
   line-height: 1.8;
 
-  color: #cbd5e1;
+  color: #000000;
 }
 
 img {
@@ -261,13 +263,13 @@ img {
 
   text-align: center;
 
-  background: #0f172a;
+  background: #ffffff;
 }
 
 .testimonials h2 {
   font-size: 40px;
 
-  color: #ffffff;
+  color: #000000;
 
   margin-bottom: 50px;
 }
@@ -283,7 +285,7 @@ img {
 }
 
 .testimonial {
-  background: #1e293b;
+  background: #9c9c9c;
 
   padding: 30px;
 
@@ -299,7 +301,7 @@ img {
 }
 
 .testimonial p {
-  color: #cbd5e1;
+  color: #303030;
 
   margin-bottom: 20px;
 
@@ -307,7 +309,7 @@ img {
 }
 
 .testimonial h3 {
-  color: #45a6db;
+  color: #000000;
 }
 
 /* CHATBOT */
@@ -377,4 +379,36 @@ img {
 .hero-logo {
     width: 180px;
     margin-bottom: 20px;
+}
+.local {
+  padding: 100px 20px;
+
+  background: #ffffff;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.local h2 {
+  font-size: 40px;
+
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+
+.local p {
+  font-size: 20px;
+
+  line-height: 1.8;
+
+  color: #000000;
+
+  text-align: center;
+}
+.services .card p {
+
+    color: #393939;
+
 }

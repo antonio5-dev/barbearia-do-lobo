@@ -1,0 +1,27 @@
+.local {
+  padding: 100px 20px;
+
+  background: #ffffff;
+
+  display: flex;
+
+  justify-content: center;
+}
+
+.local h2 {
+  font-size: 40px;
+
+  margin-bottom: 20px;
+
+  color: #000000;
+}
+
+.local p {
+  font-size: 20px;
+
+  line-height: 1.8;
+
+  color: #000000;
+
+  text-align: center;
+}

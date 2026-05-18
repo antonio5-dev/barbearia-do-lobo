@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+
+  .hero {
+  padding-top: 140px;
+  justify-content: flex-start;
+}
+
+.hero-logo {
+  width: 130px;
+}
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .services h2 {
+    font-size: 28px;
+  }
+
+  .card {
+    width: 100%;
+  }
+
+  .menu-toggle {
+
+  display: block;
+}
+
+.menu {
+
+  display: none !important;
+
+  flex-direction: column;
+
+  background: #ffffff;
+
+  position: absolute;
+
+  top: 80px;
+
+  right: 20px;
+
+  padding: 20px;
+
+  border-radius: 12px;
+}
+
+.menu.active {
+
+  display: flex !important;
+}
+
+  .logo {
+  font-size: 24px;
+  }
+}

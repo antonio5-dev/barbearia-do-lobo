@@ -1,0 +1,60 @@
+header {
+  position: fixed;
+
+  width: 100%;
+
+  top: 0;
+
+  left: 0;
+
+  padding: 20px 40px;
+
+  background: #ffffff;
+
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.logo {
+  color: #000000;
+
+  font-size: 28px;
+}
+
+.menu {
+  display: flex;
+
+  gap: 20px;
+
+  list-style: none;
+}
+
+.menu a {
+  color: rgb(0, 0, 0);
+
+  text-decoration: none;
+
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #ffffff;
+}
+
+.menu-toggle {
+
+  display: none;
+
+  font-size: 2rem;
+
+  cursor: pointer;
+
+  color: #000000;
+}

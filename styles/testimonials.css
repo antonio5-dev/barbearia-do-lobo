@@ -3,13 +3,19 @@
 
   text-align: center;
 
-  background: #ffffff;
+  background-image:
+  linear-gradient(rgba(0,0,0,0.6),
+  rgba(0,0,0,0.6)),
+  url("../images/foto-barber3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .testimonials h2 {
   font-size: 40px;
 
-  color: #000000;
+  color: #ffffff;
 
   margin-bottom: 50px;
 }

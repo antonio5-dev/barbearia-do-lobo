@@ -132,7 +132,7 @@ if (chatState === "waiting_more_info") {
 
         const respostaBot = document.createElement("div");
 
-        let resposta = "";
+        let resposta = "Obrigado pelo contato! Até logo 👋";
 
 if (
     mensagem.toLowerCase().includes("preço") ||
@@ -150,7 +150,7 @@ else if (
 ) {
 
     resposta =
-    "Estamos na Rua Alcateia, número 518, Boca do Rio. Fica ao lado da Sorveteria Pimenta";
+    "Estamos na Rua Hélio Machado, Boca do Rio. Bem ao lado da Sorveteria. Apareça para fazer uma visita!";
 
 }
 

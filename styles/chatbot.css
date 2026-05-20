@@ -4,7 +4,7 @@
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background: #216c3b;
+    background: #7d7d7d;
     color: rgb(66, 66, 66);
     width: 60px;
     height: 60px;
@@ -14,6 +14,13 @@
     align-items: center;
     font-size: 28px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.chatbot-button:hover {
+    transform: scale(1.05);
+    
+    box-shadow: 0 0 20px #494949;
 }
 
 .chatbot-container {
@@ -29,7 +36,7 @@
 }
 
 .chatbot-header {
-    background: #216c3b;
+    background: #494949;
     color: rgb(255, 255, 255);
     padding: 15px;
     display: flex;
@@ -56,7 +63,7 @@
 }
 
 .chatbot-input-area button {
-    background: #216c3b;
+    background: #494949;
     color: rgb(255, 255, 255);
     border: none;
     padding: 10px;

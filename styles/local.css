@@ -1,27 +1,65 @@
 .local {
   padding: 100px 20px;
-
   background: #ffffff;
 
   display: flex;
-
   justify-content: center;
+}
+
+.local .about-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .local h2 {
   font-size: 40px;
-
   margin-bottom: 20px;
-
   color: #000000;
+  text-align: center;
 }
 
 .local p {
   font-size: 20px;
-
   line-height: 1.8;
-
   color: #000000;
-
   text-align: center;
+  margin-bottom: 30px;
+}
+
+.map-placeholder {
+  width: 100%;
+  max-width: 1000px;
+  aspect-ratio: 2 / 1;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.map-placeholder iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+
+  .local {
+    padding: 80px 20px;
+  }
+
+  .local h2 {
+    font-size: 32px;
+  }
+
+  .local p {
+    font-size: 18px;
+  }
+
+  .map-placeholder {
+    aspect-ratio: 1 / 1;
+  }
 }
